@@ -1,0 +1,35 @@
+body {
+  color: #000;
+
+  height: 100%;
+  overflow: visible;
+  background-image: linear-gradient(
+    to right top,
+    #666274,
+    #5e566d,
+    #584a65,
+    #523e5d,
+    #4d3254,
+    #452b4b,
+    #3d2442,
+    #351d3a,
+    #29192f,
+    #1f1524,
+    #161019,
+    #09070b
+  );
+  background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar {
+    width: 0.1px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
