@@ -22,26 +22,10 @@
                         }
                } 
         </script>
-<div class="container">
-   <div class="container">
-<form action='rformnext.php' method='post' onsubmit='return abc()' >
-<div class="form-group row">
-<div class="form-group col-md-6">
-  <label for="fname">First Name</label>
-    <input class="form-control" type="text" name="fname" value="" id="fname">
-  </div>
+
 </div>
 <div class="form-group row">
-<div class="form-group col-md-6">
-  <label for="lname" >Last Name</label>
-    <input class="form-control" type="text" name="lname"  id="lname">
-  </div>
-</div>
-<div class="form-group row">
-<div class="form-group col-md-6">
-  <label for="email" >Email</label>
-    <input class="form-control" type="email" name="email" id="email">
-  </div>
+
 </div>
 <div class="form-group row">
 <div class="form-group col-md-6">
