@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        Form
+        Complaint form Anuj Here
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,7 +20,7 @@
                 <label for="cnm">Complainant's Name</label>
                 <input type="text" class="form-control" id="cnm" name="cnm" placeholder="Complainant's Name">
                 </div>
-                
+
             </div>
 
             <div class="form-row">
@@ -47,9 +47,9 @@
                     <label for="poi">Place of Incidence</label>
                     <input type="text" class="form-control" id="poi"  name="poi" placeholder="Place Of Incident">
                 </div>
-            </div> 
+            </div>
 
-            <div class="form-row">    
+            <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="cstate">State</label>
                     <input type="text" class="form-control" id="cstate" name="cstate" placeholder=" State">
@@ -59,7 +59,7 @@
                 <input type="text" class="form-control" id="ccity" name="ccity">
                 </div>
             </div>
-                <div class="form-row"> 
+                <div class="form-row">
                 <div class="form-group col-md-4">
                 <label for="cat">Crime Category</label>
                 <select id="cat" name="cat" class="form-control">
@@ -86,13 +86,13 @@
                     <option value='White Collar Crime'>White Collar Crime</option>
 
                 </select>
-                
+
                 <div class="form-group" >
                     <label for="des">Complaint</label>
                     <textarea class="form-control" id="des" rows="3" name="des"></textarea>
                 </div>
-            </div>    
-            
+            </div>
+
 </div>
             <button type="submit" class="btn btn-success">Submit</button>
             <button type="submit" class="btn btn-primary disabled">Get a Copy of FIR</button>
